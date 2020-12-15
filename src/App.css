@@ -1,3 +1,18 @@
-.App {
-  text-align: center;
+ .App {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+.cardButton {
+  margin: 50px 0 30px;
+  padding: 0 20px;
+  height: 40px;
+  background: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
 }
